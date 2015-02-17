@@ -1,0 +1,26 @@
+#boton {
+ background-color:  Orange;
+ width: 40px;
+ height: 40px;
+ font-size: 20px;
+ text-align:center;
+ }
+#botonigual {
+ background-color:  #87CEFA ;
+ width: 160px;
+ height: 40px;
+ font-size: 20px;
+ text-align:center;
+ } 
+ #Valores {
+   
+ background-color:  black;
+ width: 185px;
+ height: 245px;
+ text-align:center;
+ }
+ #Resultado {
+  
+ text-align: right;
+ }
+ 
