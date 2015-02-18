@@ -6,7 +6,18 @@ $(document).ready(function() {
      $("#Resultado").val(consola);
      $("#valores  button").click(function(){
      valor = $(this).val();
-
+     if($("#Resultado").val().length < 9)
+     {
+       $("#Resultado").css("font-size","4em");
+     }
+     if($("#Resultado").val().length > 9)
+     {
+       $("#Resultado").css("font-size","2em");
+     }
+     if($("#Resultado").val().length > 19)
+     {
+       $("#Resultado").css("font-size","0.8em");
+     }
      if(valor == "=")
      {
         try
@@ -16,12 +27,13 @@ $(document).ready(function() {
         }
         catch(err)
         {
-          alert("Valores Incorrectos");
+          $("#Resultado").css("font-size","2em");
+          $("#Resultado").val("VALOR ERROR");
         }
      }
      else if(valor == "MR")
      {
-       consola = "0";
+       consola = "memoria";
        $("#Resultado").val(memoria);     
      }
      else if(valor == "M")
@@ -32,6 +44,7 @@ $(document).ready(function() {
      {
        signo = false;
        consola = "0";
+       $("#Resultado").css("font-size","4em");
        $("#Resultado").val(consola);
      }
      else if(valor == "<-")

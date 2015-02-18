@@ -1,26 +1,75 @@
 #boton {
  background-color:  Orange;
- width: 40px;
- height: 40px;
+ width: 60px;
+ height: 60px;
  font-size: 20px;
  text-align:center;
+ 
  }
 #botonigual {
  background-color:  #87CEFA ;
- width: 160px;
- height: 40px;
+ width: 220px;
+ height: 60px;
  font-size: 20px;
+ border-radius: 10%;
  text-align:center;
+ margin-top: 5px;
  } 
  #Valores {
-   
- background-color:  black;
- width: 185px;
- height: 245px;
+ margin-left: 15px;
+ background-color:  LightGreen;
+ width: 400px;
+ height: 440px;
  text-align:center;
+ border-radius: 5%;
+ margin-top: 5px;
+ padding-top: 15px;
+ box-shadow:
+inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05),
+/* Sombra interna */
+0 5px 20px rgba(0,0,0,.1);
+ 
  }
  #Resultado {
-  
+ background-color:  #3CB371; 
+ color: white;
+ font-size: 4em; 
  text-align: right;
+ font-family: 'Courier New', Courier, monospace;
+  margin-left: 15px;
+  margin-top: 5px;
+   box-shadow:
+inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05),
+/* Sombra interna */
+0 5px 20px rgba(0,0,0,.1);
+border-radius: 5%;
  }
- 
+#boton {
+  background-color:  LightGreen ;
+  height: 70px;  /* Alto del botón */
+  width: 70px;  /* Ancho del botón */
+  border-radius: 41%;
+  cursor: pointer;
+  margin-top: 2px;
+  box-shadow:
+inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05),
+/* Sombra interna */
+0 5px 20px rgba(0,0,0,.1);
+}
+#h3{
+  margin-left: 210px;
+}
+
+#calculadora
+{
+  background-color:  #FF8C00 ;
+  width: 430px;
+  height: 590px;
+  border: black 5px solid;
+  border-radius: 5%;
+  margin-left: 60px;
+    box-shadow:
+inset 0 10px 15px rgba(255,255,255,.35), inset 0 -10px 15px rgba(0,0,0,.05), inset 10px 0 15px rgba(0,0,0,.05), inset -10px 0 15px rgba(0,0,0,.05),
+/* Sombra interna */
+0 5px 20px rgba(0,0,0,.1);
+}
